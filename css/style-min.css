@@ -1,0 +1,95 @@
+.post-publish{
+    margin: 2em auto 1.2em;
+    width: 780px;
+    background: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.wrap{
+    display: table;
+    padding-left: 2em;
+    padding-right: 2em;
+   margin: 0 auto;
+}
+.entry-header {
+    padding: 1.25em;
+    margin-bottom: 1em;
+}
+.post-publish img{
+  width: 100%;
+  margin:20px auto;
+}
+.entry-footer{
+    font-size: 14px;
+    padding-bottom: 2.5em;
+}
+/* ----------发表内容--------------- */
+.post-publish-query{
+    background-image: url(../img/d.jpg);
+    
+}
+.post-publish-input{
+    margin: 0em auto 1.2em;
+    width: 780px;
+    background: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+.input{
+    background-color: #009688;
+    display: none; 
+}
+.input .unname{
+    margin-top: 50px;
+}
+#input-wrap{
+    margin: 0 auto;
+}
+#content{
+    height: 300px;
+}
+#submit{
+    margin-bottom: 30px;
+}
+.input input{
+    border-radius: 6px;
+    border: none;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    background-color: bisque;
+}
+button{
+    background-color: #4CAF50;
+    cursor: pointer;
+    border: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: whitesmoke;
+    transition-duration: 0.5s;
+}
+/* ---------------分页---------- */
+.pageTool-container{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    width: 400px;
+    height: 20px;
+    margin: 20px auto 50px;
+}
+.pageTool-container a{
+    border: 1px solid rgb(58, 49, 189);
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 10px;
+}

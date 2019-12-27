@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: lightgrey;
+}
+a {
+    color: rgb(73, 119, 204);
+}
+
+h2 {
+    color: rgb(63, 65, 62);
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.wrapper {
+    top: 15%;
+    width: 100%;  
+}
+
+.container {
+    text-align: center;
+    background-color: whitesmoke;
+    width: 50%;
+    height: 300px;
+   
+    margin: 80px auto 0 auto;
+}
+.sml-container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 7em;
+    position: relative;
+}
+.container img {
+    width: 40px;
+    height: 40px;
+}
+
+.container .icon {
+    position: absolute;
+    left: 37px;
+    top: 110px;
+}
